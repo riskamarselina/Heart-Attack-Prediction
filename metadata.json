@@ -1,0 +1,89 @@
+{
+  "feature_cols": [
+    "age",
+    "gender",
+    "region",
+    "income_level",
+    "hypertension",
+    "diabetes",
+    "cholesterol_level",
+    "obesity",
+    "waist_circumference",
+    "family_history",
+    "smoking_status",
+    "alcohol_consumption",
+    "physical_activity",
+    "dietary_habits",
+    "air_pollution_exposure",
+    "stress_level",
+    "sleep_hours",
+    "blood_pressure_systolic",
+    "blood_pressure_diastolic",
+    "fasting_blood_sugar",
+    "cholesterol_hdl",
+    "cholesterol_ldl",
+    "triglycerides",
+    "EKG_results",
+    "previous_heart_disease",
+    "medication_usage"
+  ],
+  "categorical_cols": [
+    "gender",
+    "region",
+    "income_level",
+    "smoking_status",
+    "alcohol_consumption",
+    "physical_activity",
+    "dietary_habits",
+    "air_pollution_exposure",
+    "stress_level",
+    "EKG_results"
+  ],
+  "encoding_maps": {
+    "gender": {
+      "Female": 0,
+      "Male": 1
+    },
+    "region": {
+      "Rural": 0,
+      "Urban": 1
+    },
+    "income_level": {
+      "High": 0,
+      "Low": 1,
+      "Middle": 2
+    },
+    "smoking_status": {
+      "Current": 0,
+      "Never": 1,
+      "Past": 2
+    },
+    "alcohol_consumption": {
+      "High": 0,
+      "Moderate": 1
+    },
+    "physical_activity": {
+      "High": 0,
+      "Low": 1,
+      "Moderate": 2
+    },
+    "dietary_habits": {
+      "Healthy": 0,
+      "Unhealthy": 1
+    },
+    "air_pollution_exposure": {
+      "High": 0,
+      "Low": 1,
+      "Moderate": 2
+    },
+    "stress_level": {
+      "High": 0,
+      "Low": 1,
+      "Moderate": 2
+    },
+    "EKG_results": {
+      "Abnormal": 0,
+      "Normal": 1
+    }
+  }
+}
